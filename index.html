@@ -172,44 +172,33 @@
     <article id="post-eslint" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/02/01/eslint/">Eslint代码规范使用</a>
+    </h1>
+  
+
+        
+        <a href="/2021/02/01/eslint/" class="archive-article-date">
+  	<time datetime="2021-01-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-01</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Eslint代码规范使用"><a href="#Eslint代码规范使用" class="headerlink" title="Eslint代码规范使用"></a>Eslint代码规范使用</h2><p>注：测试在umi3.x工程中进行</p>
+        <p>注：测试在umi3.x工程中进行</p>
 <ul>
 <li><p>1，安装 npm install eslint -g全局安装 或项目安装 npm i eslint –save-dev</p>
 </li>
-<li><p>2，执行eslint –init初始化eslint配置项 项目按照可能会出现eslint不是内部外部命令<br>自己添加初始化命令<br><img src="../../assets/eslint2.png" alt="avatar"></p>
+<li><p>2，执行eslint –init初始化eslint配置项 项目按照可能会出现eslint不是内部外部命令<br>自己添加初始化命令<br><img src="./assets/eslint2.png" alt="avatar"></p>
 </li>
 <li><p>3，逐步选择配置项 注：</p>
-</li>
-</ul>
-<p><img src="../../assets/eslint3.png" alt="avatar"></p>
-<p><img src="../../assets/eslint4.png" alt="avatar"></p>
-<ul>
-<li><p>4，按照步骤完成后，npm i 安装，生成eslintrc.json文件， 打开编辑器设置 开启编辑器的eslint选项<br><img src="../../assets/eslint5.png" alt="avatar"></p>
-</li>
-<li><p>5，新建一个.ts文件进行测试 出现插件未安装  npm i eslint-plugin-react –save-dev<br><img src="../../assets/eslint6.png" alt="avatar"></p>
-</li>
-<li><p>6，安装完出现 安装  npm i eslint-config-airbnb –save-dev<br><img src="../../assets/eslint7.png" alt="avatar"></p>
-</li>
-<li><p>7，出现@typescript-eslint/parser  “eslint-plugin-import”,  “eslint-plugin-typescript”  @typescript-eslint/eslint-plugin安装这四个<br><img src="../../assets/eslint8.png" alt="avatar"></p>
-</li>
-<li><p>8，当出现下面错误，将eslintrc.json   extends 下面airbnb改成airbnb-base<br><img src="../../assets/eslint9.png" alt="avatar"></p>
-</li>
-<li><p>9，再次使用即可出现eslint  airbnb 的代码规范<br><img src="../../assets/eslint10.png" alt="avatar"></p>
-</li>
-</ul>
-<ul>
-<li><p>10，在配置文件里配置项可以去官网查看 如自定义rules<br><img src="../../assets/eslint1.png" alt="avatar"></p>
-</li>
-<li><p>11，新建 .eslintignore 文件 用来处理忽略eslint的一些文件 具体方式和gitignore差不多</p>
-</li>
-<li><p>12，开始规范的编写代码吧</p>
-</li>
-<li><p>13，更多功能未完待续~</p>
-</li>
-</ul>
-
+        
+          <a class="article-more-a" href="/2021/02/01/eslint/#more">more >></a>
+        
       
 
       
@@ -217,6 +206,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">f2e</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -342,6 +342,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">f2e</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
